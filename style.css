@@ -5,8 +5,9 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
 }
 
 .background0 {
@@ -20,7 +21,7 @@ body {
 }
 .efeito {
     height: 100%;
-    background-image: linear-gradient( to right, rgba(0, 0, 0, 0.89), rgba(0, 0, 0, 0.089), rgba(0, 0, 0, 0.747));
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.158) 0%, rgba(0, 0, 0, 0.26) 0%, rgba(0,0,0,1) 100%);
 }
 
 header {
@@ -100,4 +101,46 @@ input {
     font-size: 1.5em;
     font-family: 'netflix';
     font-weight: 600;
+    border: none;
+}
+
+.aproveite-na-tv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0px;
+    border: 0px;
+    color: white;
+    max-width: 1100px;
+    
+}
+
+.tv-img {
+    z-index: 2;
+    position: relative;
+    box-sizing: border-box;
+    flex: 0 1 auto;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.tv-img > img {
+    border: 0;
+    height: auto;
+    max-width: 100%;
+}
+
+.tv-texto {
+    
+    font-family: 'netflix';
+    font-size: 1.600em;
+}
+
+.tv-texto > h1 {
+    padding: 0px;
+    border: 0px;
+    margin: auto;
+    
 }
