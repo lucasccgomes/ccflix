@@ -1,0 +1,103 @@
+@font-face{
+    font-family: 'netflix';
+    src: url('font/netflix-sans-font/NetflixSans-Light.otf') format('opentype');
+    font-weight: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.background0 {
+    background-image: url(img/background-principal.jpg);
+    background-size: auto;
+    border: 0px;
+    height: 688px;
+    border-bottom: 10px;
+    border-color: rgb(58, 56, 56);
+    border-style: solid;
+}
+.efeito {
+    height: 100%;
+    background-image: linear-gradient( to right, rgba(0, 0, 0, 0.89), rgba(0, 0, 0, 0.089), rgba(0, 0, 0, 0.747));
+}
+
+header {
+    height: 84px;
+    color: red;
+    font-size: 3em;
+}
+
+.logo {
+    padding-top: 20px;
+    padding-left: 65px;
+    
+}
+
+header > p {
+    margin: auto;
+    padding: auto;
+}
+
+.background {
+    height: 596px;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+
+.apresenta-inicial {
+    font-family: 'netflix';
+    color: white;
+    margin: auto;
+    padding: auto;
+    /* background-color: blueviolet; */
+    width: 950px;
+    height: 302px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.apresenta-inicial > h1 {
+    margin: auto;
+    padding: auto;
+    font-size: 3.125rem;
+    width: 640px;
+    height: 110px;
+}
+
+.apresenta-inicial > p {
+    margin: auto;
+    padding: auto;
+    width: 640px;
+    height: 31px;
+    font-size: 26px;
+}
+
+.email {
+    display: flex;
+}
+
+input {
+    height: 60px;
+    width: 100%;
+}
+
+.email > button {
+    background-color: red;
+    color: white;
+    width: 182px;
+    font-size: 1.5em;
+    font-family: 'netflix';
+    font-weight: 600;
+}
