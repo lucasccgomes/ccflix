@@ -69,29 +69,44 @@ header > p {
     flex-direction: column;
 }
 
+h1, h2, h3 {
+    font-family: 'netflix';
+}
+
 .apresenta-inicial > h1 {
     margin: auto;
     padding: auto;
+    padding-bottom: 10px;
     font-size: 3.125rem;
     width: 640px;
     height: 110px;
 }
 
-.apresenta-inicial > p {
+.apresenta-inicial > h2 {
     margin: auto;
-    padding: auto;
-    width: 640px;
-    height: 31px;
-    font-size: 26px;
+    padding-top: 15px;
+    font-size: 1.625rem;
+}
+
+.vamos-la > h3 {
+    padding-bottom: 10px;
 }
 
 .email {
     display: flex;
 }
 
-input {
+#email {
+    font-family: 'netflix';
+    color: rgb(117, 110, 110);
+    font-size: 1.5em;
     height: 60px;
-    width: 100%;
+    width: 450px;
+}
+
+#email:focus {
+    border: 0px;
+    border-color: aqua;
 }
 
 .email > button {
@@ -133,14 +148,17 @@ input {
 }
 
 .tv-texto {
-    
     font-family: 'netflix';
-    font-size: 1.600em;
 }
 
 .tv-texto > h1 {
+    font-size: 3.125rem;
     padding: 0px;
     border: 0px;
     margin: auto;
     
+}
+
+.tv-texto > h2 {
+    font-size: 1.625rem;
 }
