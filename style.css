@@ -119,6 +119,25 @@ h1, h2, h3 {
     border: none;
 }
 
+/*Inicio Descrição dos Beneficios*/
+.texto {
+    font-family: 'netflix';
+}
+
+.texto > h1 {
+    font-size: 3.125rem;
+    padding: 0px;
+    border: 0px;
+    margin: auto;
+    
+}
+
+.texto > h2 {
+    font-size: 1.625rem;
+}
+/*Fim Discrição dos Beneficios*/
+
+/*Inicio Aproveite na TV*/
 .aproveite-na-tv {
     display: flex;
     align-items: center;
@@ -146,19 +165,92 @@ h1, h2, h3 {
     height: auto;
     max-width: 100%;
 }
+/*Fim Aproveite na TV*/
 
-.tv-texto {
-    font-family: 'netflix';
-}
-
-.tv-texto > h1 {
-    font-size: 3.125rem;
+/*Inicio Baixe*/
+.baixe {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
     padding: 0px;
     border: 0px;
-    margin: auto;
+    color: white;
+    max-width: 1100px;
     
 }
 
-.tv-texto > h2 {
-    font-size: 1.625rem;
+.mobile-img {
+    z-index: 2;
+    position: relative;
+    box-sizing: border-box;
+    flex: 0 1 auto;
+    display: flex;
+    height: 100%;
+    width: 100%;
 }
+
+.mobile-img > img {
+    border: 0;
+    height: auto;
+    max-width: 100%;
+}
+/*Fim Baixe*/
+
+/*Inicio Assista quando quiser*/
+.assista-quando-quiser {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0px;
+    border: 0px;
+    color: white;
+    max-width: 1100px;
+    
+}
+
+.device-img {
+    z-index: 2;
+    position: relative;
+    box-sizing: border-box;
+    flex: 0 1 auto;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.device-img > img {
+    border: 0;
+    height: auto;
+    max-width: 100%;
+}
+
+.infantil {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0px;
+    border: 0px;
+    color: white;
+    max-width: 1100px;
+    
+}
+
+.infantil-img {
+    z-index: 2;
+    position: relative;
+    box-sizing: border-box;
+    flex: 0 1 auto;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.infantil-img > img {
+    border: 0;
+    height: auto;
+    max-width: 100%;
+}
+/*Fim Assista quando quiser*/
