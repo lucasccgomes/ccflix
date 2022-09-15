@@ -4,6 +4,10 @@
     font-weight: normal;
 }
 
+:root {
+    --divisa:rgb(58, 56, 56);
+}
+
 body {
     margin: 0px;
     padding: 0px;
@@ -16,7 +20,7 @@ body {
     border: 0px;
     height: 688px;
     border-bottom: 10px;
-    border-color: rgb(58, 56, 56);
+    border-color: var(--divisa);
     border-style: solid;
 }
 .efeito {
@@ -59,7 +63,6 @@ header > p {
     color: white;
     margin: auto;
     padding: auto;
-    /* background-color: blueviolet; */
     width: 950px;
     height: 302px;
     display: flex;
@@ -106,7 +109,6 @@ h1, h2, h3 {
 
 #email:focus {
     border: 0px;
-    border-color: aqua;
 }
 
 .email > button {
@@ -144,7 +146,6 @@ h1, h2, h3 {
     justify-content: space-between;
     margin: auto;
     padding: 0px;
-    border: 0px;
     color: white;
     max-width: 1100px;
     
@@ -167,6 +168,14 @@ h1, h2, h3 {
 }
 /*Fim Aproveite na TV*/
 
+
+.divisa {
+    border: 0px;
+    border-bottom: 10px;
+    border-style: solid;
+    border-color: var(--divisa);
+}
+
 /*Inicio Baixe*/
 .baixe {
     display: flex;
@@ -176,8 +185,7 @@ h1, h2, h3 {
     padding: 0px;
     border: 0px;
     color: white;
-    max-width: 1100px;
-    
+    max-width: 1100px; 
 }
 
 .mobile-img {
