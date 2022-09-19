@@ -122,12 +122,12 @@ h1, h2, h3 {
 }
 
 video {
-    width: 393px;
+    width: 402px;
     height: 230px;
     margin-left: 78px;
     margin-top: 83px;
-    position: absolute; 
-    display: flex;
+    position: absolute;
+    z-index: -1;
 }
 
 .video-config-posicao {
