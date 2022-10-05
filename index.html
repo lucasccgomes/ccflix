@@ -19,6 +19,7 @@
                     <img width="134" srcset="img/logo.png" alt="Logo" type="image/png">
                 </div>
             </header>
+            
             <div class="background">
                 <div class="apresenta-inicial">
                 <h1>Filmes, séries e muito mais. Sem limites.</h1>
@@ -28,7 +29,7 @@
                     <form action=" #### " method="post">
                         <div class="email">
                             <label for="email"></label>
-                            <input type="email" id="email" value="Email">
+                            <input type="email" id="email">
                             <button>Vamos lá ></button>
                         </div>
                     </form>
@@ -37,38 +38,50 @@
             </div>
             </div>
         </div>
-
-        <div class="divisa">
-            <div class="aproveite-na-tv">
-                <div class="texto">
+            <div class="divisa">
+                <div class="texto-aproveite-na-tv">
                     <h1>Aproveite na TV.</h1>
                     <h2>
                         Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
                         aparelhos de Blu-ray e outros dispositivos.
                     </h2>
                 </div>
-                <div class="video-config-posicao">
+                <div>
                     <div class="tv-img">
-                        <img srcset="img/tv.png" alt="TV Smart" type="image/png">
-                        <video width="402" height="230" autoplay loop muted>
-                            <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v" type="video/mp4" />
-                        </video>
+                        <picture>
+                            <img srcset="img/tv.png" alt="TV Smart" type="image/png">
+                        </picture>
+                        <div class="video-container">    
+                            <video autoplay loop muted>
+                                <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v" type="video/mp4" />
+                            </video>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="divisa">
-            <div class="baixe">
-                <div class="mobile-img">
-                    <img srcset="img/mobile-0819.jpg" alt="Mobile" type="image/png">
+        <div class="divisa" id="baixe"> 
+                <div class="mobile-img">    
+                    <img srcset="img/mobile-0819.jpg" alt="Mobile" type="image/png"> 
+                    <div class="download">
+                        <div class="boxshot">
+                            <img src="img/boxshot.png" alt="Stranger Things">
+                            <div class="texto-boxshot">
+                                <h1>Stranger Things</h1>
+                                <p>Download em andamento...</p>
+                                <div class="animation-download">
+                                    <img src="img/download-icon.gif" alt="Download"> 
+                                 </div>
+                            </div>
+                        </div>
+                        
+                    </div>
                 </div>
-                <div class="texto">
+                <div class="texto-baixe">
                     <h1>Baixe séries para assistir offline.</h1>
                     <h2>
                         Salve seus títulos favoritos e sempre tenha algo para assistir.
                     </h2>
                 </div>
-            </div>
         </div>
 
         <div class="divisa">
@@ -99,6 +112,7 @@
                 </div>
             </div>
         </div>
+
         <div class="perguntas-frequentes">
 
         </div>
