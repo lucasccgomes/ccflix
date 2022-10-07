@@ -12,6 +12,7 @@ body {
     margin: 0px;
     padding: 0px;
     background-color: black;
+    color: white;
 
 }
 
@@ -254,7 +255,8 @@ video {
 }
 
 .boxshot .texto-boxshot {
-    width: 18vw;
+    max-width: 18vw;
+    min-width: 17vw;
     margin-bottom: 0px;
     margin-top: -64px;
     margin-left: 60px;

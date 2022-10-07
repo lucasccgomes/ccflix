@@ -1,0 +1,116 @@
+@media screen and (max-width: 951px) {
+    /*Inicio Aproveite na TV*/
+#aproveite-na-tv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.texto-aproveite-na-tv {
+    max-width: 100%;
+}
+
+.texto-aproveite-na-tv h1, h2 {
+    text-align: center;
+}
+
+.texto-aproveite-na-tv h1 {
+    font-size: 4.6vw;
+    margin-bottom: 0.5em;
+}
+
+.texto-aproveite-na-tv h2 {
+    font-size: 2.3vw;
+}
+
+.video-container {
+    margin: auto;
+}
+
+.tv-img {
+    margin: auto;
+}
+/*Fim Aproveite na TV*/
+
+/*Inicio Baixe*/
+.texto-baixe {
+   
+   
+}
+
+#baixe {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.texto-baixe {
+    margin-top: 3.5em;
+    
+    max-width: 100%;
+}
+
+.texto-baixe h1 {
+    font-size: 4.6vw;
+    text-align: center;
+    margin-bottom: 0.3em;
+}
+
+.texto-baixe h2 {
+    text-align: center;
+    font-size: 2.2vw;
+    margin-bottom: 0px;
+}
+
+.mobile-img > img {
+   max-width: 600px;
+   margin: auto;
+}
+
+.mobile-img{
+   margin: auto;
+}
+
+.download {
+    position: relative;
+    max-width: 65%;
+   margin: auto;
+   bottom: 15vw;
+   left: 0;
+}
+
+.boxshot {
+   
+}
+
+.boxshot img {
+    
+}
+
+.boxshot .texto-boxshot {
+    
+}
+
+.texto-boxshot h1 {
+   
+}
+
+.texto-boxshot p {
+    
+    
+}
+
+.animation-download {
+
+}
+
+.animation-download img {
+    
+}
+
+/*Fim Baixe*/
+}
