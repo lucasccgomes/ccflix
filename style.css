@@ -55,8 +55,8 @@ header > p {
     margin: auto;
     margin-top: 100px;
     padding: auto;
-    width: 950px;
-    height: 302px;
+    max-width: 950px;
+    max-height: 302px;
     display: flex;
     text-align: center;
     align-items: center;
@@ -275,17 +275,14 @@ video {
 }
 
 .animation-download {
-    float: right;
     width: 60px;
     height: 40px;
-    margin-right: 14px;
-    margin-top: -56px;
+    position: absolute;
+    right: 0;
+    top: 10px;
 
 }
 
-.animation-download img {
-    
-}
 
 /*Fim Baixe*/
 

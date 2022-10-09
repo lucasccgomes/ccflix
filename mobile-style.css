@@ -1,4 +1,70 @@
 @media screen and (max-width: 951px) {
+   
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+
+}
+
+.background0 {
+    min-height: 524px;
+    max-width: 950px;
+}
+
+.logo {
+    padding-top: 5px;
+    padding-left: 5px;
+    
+}
+
+header > p {
+    
+}
+
+.apresenta-inicial {
+   max-width: 950px;
+   min-width: 320px;
+   position: relative;
+   
+}
+
+.apresenta-inicial > h1 {
+    max-width: 100%;
+    font-size: 2.3em;
+}
+
+.apresenta-inicial > h2 {
+    max-width: 100%;
+}
+
+.vamos-la > h3 {
+    max-width: 100%;
+}
+
+.email {
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 100%;
+    min-width: 288px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#email {
+    width: 100%;
+    min-width: 288px;
+}
+
+.email > button {
+    margin-top: 16px;
+    min-width: 84px;
+    min-height: 55px;
+    border-radius: 3px;
+}
+
     /*Inicio Aproveite na TV*/
 #aproveite-na-tv {
     display: flex;
@@ -17,12 +83,13 @@
 }
 
 .texto-aproveite-na-tv h1 {
-    font-size: 4.6vw;
+    font-size: 2em;
     margin-bottom: 0.5em;
 }
 
 .texto-aproveite-na-tv h2 {
-    font-size: 2.3vw;
+    font-size: 1.3em;
+    
 }
 
 .video-container {
@@ -33,6 +100,8 @@
     margin: auto;
 }
 /*Fim Aproveite na TV*/
+
+
 
 /*Inicio Baixe*/
 .texto-baixe {
@@ -49,20 +118,21 @@
 }
 
 .texto-baixe {
-    margin-top: 3.5em;
     
     max-width: 100%;
+    margin: auto;
 }
 
 .texto-baixe h1 {
-    font-size: 4.6vw;
+    margin-top: 45px;
+    font-size: 2em;
     text-align: center;
     margin-bottom: 0.3em;
 }
 
 .texto-baixe h2 {
     text-align: center;
-    font-size: 2.2vw;
+    font-size: 1.3em;
     margin-bottom: 0px;
 }
 
@@ -73,43 +143,31 @@
 
 .mobile-img{
    margin: auto;
+   max-width: 600px;
+   min-width: 350px;
 }
 
 .download {
-    position: relative;
-    max-width: 65%;
+   max-width: 55%;
    margin: auto;
    bottom: 15vw;
-   left: 0;
+   margin-left: 30px;
+   margin-right: 30px;
 }
 
-.boxshot {
-   
-}
-
-.boxshot img {
-    
-}
-
-.boxshot .texto-boxshot {
-    
+.texto-boxshot {
+    max-width: 55vw;
+    min-width: 200px!important;
 }
 
 .texto-boxshot h1 {
-   
-}
-
-.texto-boxshot p {
-    
-    
+   font-size: 1em;
 }
 
 .animation-download {
-
-}
-
-.animation-download img {
-    
+    position: absolute;
+    right: 10px;
+    top: 14px;
 }
 
 /*Fim Baixe*/
