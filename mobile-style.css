@@ -1,3 +1,11 @@
+@media screen and (max-width: 420px) {
+    .device-img > .video-container-device {
+        margin-left: 78px !important;
+        margin-right: 76px !important;
+        max-width: 360px;
+     }
+}
+
 @media screen and (max-width: 550px) {
     .background0 {
         max-height: 508px;
@@ -190,6 +198,7 @@ header > p {
  .assista-quando-quiser .texto {
      margin-top: 50px;
      text-align: center;
+     margin: auto;
  }
 
  .assista-quando-quiser .texto h1 {
@@ -201,14 +210,23 @@ header > p {
  }
  
  .device-img > .video-container-device {
-    margin-left: 91px;
+    margin-left: 92px;
+    margin-right: 92px;
     max-width: 360px;
+ }
+
+ .device-img {
+    min-width: 324px;
+ }
+
+ .device-img img {
+    min-width: 324px;
  }
  
  .device-img video {
      margin: auto;
      max-width: 100%;
-     min-width: 260px;
+     min-width: 227px;
  }
  /*Fim Assista quando quiser*/
 
