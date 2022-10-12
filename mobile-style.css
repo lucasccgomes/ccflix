@@ -1,3 +1,13 @@
+@media screen and (max-width: 550px) {
+    .background0 {
+        max-height: 508px;
+    }
+.email {
+    max-width: 480px;
+    max-height: 116px;
+}
+}
+
 @media screen and (max-width: 951px) {
    
 body {
@@ -32,15 +42,17 @@ header > p {
 
 .apresenta-inicial > h1 {
     max-width: 100%;
-    font-size: 2.3em;
+    font-size: 2em;
 }
 
 .apresenta-inicial > h2 {
     max-width: 100%;
+    font-size: 1em;
 }
 
 .vamos-la > h3 {
     max-width: 100%;
+    font-size: 1em;
 }
 
 .email {
@@ -92,10 +104,6 @@ header > p {
     
 }
 
-.video-container {
-    margin: auto;
-}
-
 .tv-img {
     margin: auto;
 }
@@ -104,10 +112,6 @@ header > p {
 
 
 /*Inicio Baixe*/
-.texto-baixe {
-   
-   
-}
 
 #baixe {
     display: flex;
@@ -171,4 +175,34 @@ header > p {
 }
 
 /*Fim Baixe*/
+
+/*Inicio Assista quando quiser*/
+.assista-quando-quiser {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+     
+ }
+ 
+ .assista-quando-quiser .texto {
+     margin-top: 50px;
+     text-align: center;
+ }
+ 
+ .device-img > .video-container-device {
+    margin-left: 91px;
+    max-width: 360px;
+ }
+ 
+ .device-img video {
+     margin: auto;
+     max-width: 100%;
+     min-width: 260px;
+ }
+ 
+ /*Fim Assista quando quiser*/
 }
+

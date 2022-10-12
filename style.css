@@ -218,7 +218,7 @@ video {
 }
 
 .mobile-img {
-   margin-left: -0%;
+   margin-left: 8%;
    margin-right: 10%;
    
 }
@@ -305,7 +305,6 @@ video {
     margin-bottom: 5%;
     min-width: 444px;
     max-width: 555px;
-
 }
 
 .device-img > img {
@@ -317,7 +316,7 @@ video {
 .device-img > .video-container-device {
     max-width: 100%;
     height: auto;
-    margin-left: 91px;
+    margin-left: 85px;
     margin-top: 36px;
     margin-bottom: 15px;
     margin-right: 91px;
