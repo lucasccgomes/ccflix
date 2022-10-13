@@ -355,3 +355,101 @@ video {
     margin: auto;
 }
 
+/*Inicio Perguntas*/
+.perguntas-frequentes {
+    text-align: center;
+    list-style-type: none;
+    max-width: 100%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+ul {
+    margin: auto;
+    padding: 0;
+    max-width: 745px;
+}
+
+li {
+    list-style-type: none;
+}
+.faq-style {
+    background-color: #303030;
+    max-width: 100%;
+    margin: auto;
+    min-height: 65px;
+    margin-bottom: 5px;
+    text-align: justify;
+    font-size: 2em;
+}
+
+.faq {
+    width: 100%;
+}
+
+#mostra {
+    background-color: #303030;
+    max-width: 100%;
+    margin: auto;
+    font-size: 2em;
+    margin-bottom: 5px;
+    padding: 1.2em;
+}
+
+/* Checkbox Hack */
+#faq-1, #faq-2, #faq-3, #faq-4, #faq-5, #faq-6 {
+    display:none;
+ }
+ 
+ .faq { 
+   -webkit-appearance: push-button;
+   -moz-appearance: button; 
+   display: inline-block;
+   cursor: pointer;
+   padding-left: 15px;
+   padding-top: 17px;
+
+ }
+ 
+ #mostra {
+    display:none;
+ }
+ 
+ /* CSS quando o checkbox está marcado */
+ #faq-1:checked ~ #mostra {
+    display:block;
+ }
+
+ #faq-2:checked ~ #mostra {
+    display:block;
+ }
+
+ #faq-3:checked ~ #mostra {
+    display:block;
+ }
+
+ #faq-4:checked ~ #mostra {
+    display:block;
+ }
+
+ #faq-5:checked ~ #mostra {
+    display:block;
+ }
+
+ #faq-6:checked ~ #mostra {
+    display:block;
+ }
+
+.pronto-p-assistir {
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+
+}
+
+.pronto-p-assistir .vamos-la {
+    margin: auto;
+    text-align: center;
+   
+}

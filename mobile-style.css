@@ -37,14 +37,11 @@ body {
     
 }
 
-header > p {
-    
-}
-
 .apresenta-inicial {
    max-width: 950px;
    min-width: 320px;
    position: relative;
+   margin-top: 46px;
    
 }
 
@@ -96,6 +93,7 @@ header > p {
 
 .texto-aproveite-na-tv {
     max-width: 100%;
+    margin-left: 0px;
 }
 
 .texto-aproveite-na-tv h1, h2 {
@@ -203,6 +201,7 @@ header > p {
 
  .assista-quando-quiser .texto h1 {
     font-size: 2em;
+    margin-top: 30px;
  }
 
  .assista-quando-quiser .texto h2 {
@@ -256,6 +255,12 @@ header > p {
 }
 
 .infantil .texto h2 {
+    font-size: 1.3em;
+}
+/*Fim Infantil*/
+
+
+#mostra, .faq-style {
     font-size: 1.3em;
 }
 }
