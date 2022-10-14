@@ -120,7 +120,7 @@ body {
 /*Inicio Baixe*/
 
 #baixe {
-    display: flex;
+    max-width: 100%;
     flex-direction: column-reverse;
     justify-content: center;
     flex-wrap: wrap;
@@ -147,13 +147,13 @@ body {
 }
 
 .mobile-img > img {
-   max-width: 600px;
-   margin: auto;
+    max-width: 100%;
+    display: flex;
 }
 
 .mobile-img{
    margin: auto;
-   max-width: 600px;
+   max-width: 100%;
    min-width: 350px;
 }
 
@@ -161,23 +161,25 @@ body {
    max-width: 55%;
    margin: auto;
    bottom: 15vw;
-   margin-left: 30px;
-   margin-right: 30px;
+   left: 0;
+
 }
 
 .texto-boxshot {
-    max-width: 55vw;
-    min-width: 200px!important;
+    max-width: 177px;
+    min-width: 31vw!important;
 }
 
 .texto-boxshot h1 {
-   font-size: 1em;
+   font-size: 0.8em;
 }
 
 .animation-download {
     position: absolute;
     right: 10px;
-    top: 14px;
+    top: 17px;
+    max-width: 50px;
+    min-width: 10px;
 }
 
 /*Fim Baixe*/
@@ -225,7 +227,7 @@ body {
  .device-img video {
      margin: auto;
      max-width: 100%;
-     min-width: 227px;
+    
  }
  /*Fim Assista quando quiser*/
 
@@ -238,6 +240,7 @@ body {
 
 .infantil-img {
    max-width: 100%;
+   margin: auto;
 }
 
 .infantil-img img {

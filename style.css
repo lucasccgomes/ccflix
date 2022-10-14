@@ -381,6 +381,8 @@ li {
     margin-bottom: 5px;
     text-align: justify;
     font-size: 2em;
+    display: flex;
+    align-items: center;
 }
 
 .faq {
@@ -401,13 +403,11 @@ li {
     display:none;
  }
  
- .faq { 
-   -webkit-appearance: push-button;
-   -moz-appearance: button; 
+ .faq {  
    display: inline-block;
    cursor: pointer;
    padding-left: 15px;
-   padding-top: 17px;
+   background-color: transparent;
 
  }
  
@@ -452,4 +452,33 @@ li {
     margin: auto;
     text-align: center;
    
+}
+
+footer {
+    margin-top: 15px;
+    text-align: center;
+}
+
+#contato {
+    margin: auto;
+    background-color: #303030;
+    max-width: 400px;
+    padding: 0px;
+}
+
+a {
+    margin-bottom: 0;
+    text-decoration: none;
+    margin-right: 8px;
+    font-size: 1.5em;
+    color: white;
+    padding: 5px;
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    background-color: black;
 }
