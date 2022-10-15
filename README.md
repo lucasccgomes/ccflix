@@ -1,4 +1,4 @@
-# 👨‍💻 Projeto ccflix
+<center> # 👨‍💻 Projeto ccflix
  
  <h2>💻Tecnologias utilizadas: </h2><br>
 
@@ -10,4 +10,4 @@
  
  <h2>📱Nesse projeto aprendi também a respeito de responsividade </h2><br>
 
- <img src="https://live.staticflickr.com/65535/52429435434_7295909c49_z.jpg" width="640" height="355" alt="tela-ccflix">
+ <img src="https://live.staticflickr.com/65535/52429435434_7295909c49_z.jpg" width="640" height="355" alt="tela-ccflix"> </center>
