@@ -2,7 +2,7 @@
  
  <h2>💻Tecnologias utilizadas: </h2><br>
 
-  <img src="https://live.staticflickr.com/65535/52429139446_b120deee59_t.jpg" width="50" height="50" alt="logo-css"><img src= <img src="https"https://live.staticflickr.com/65535/52429657543_3f972a183d_t.jpg" width="50" height="50" alt="logo-html">
+  <img src="https://live.staticflickr.com/65535/52429139446_b120deee59_t.jpg" width="50" height="50" alt="logo-css"><img src="https"https://live.staticflickr.com/65535/52429657543_3f972a183d_t.jpg" width="50" height="50" alt="logo-html">
   
   <a href="https://lucasccgomes.github.io/ccflix/"> Projeto hospedado
   
