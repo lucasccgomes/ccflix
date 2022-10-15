@@ -23,7 +23,6 @@ body {
     padding: 0px;
     background-color: black;
     color: white;
-
 }
 
 .background0 {
@@ -34,7 +33,6 @@ body {
 .logo {
     padding-top: 5px;
     padding-left: 5px;
-    
 }
 
 .apresenta-inicial {
@@ -42,7 +40,6 @@ body {
    min-width: 320px;
    position: relative;
    margin-top: 46px;
-   
 }
 
 .apresenta-inicial > h1 {
@@ -107,7 +104,6 @@ body {
 
 .texto-aproveite-na-tv h2 {
     font-size: 1.3em;
-    
 }
 
 .tv-img {
@@ -162,7 +158,6 @@ body {
    margin: auto;
    bottom: 15vw;
    left: 0;
-
 }
 
 .texto-boxshot {
@@ -191,8 +186,7 @@ body {
     flex-wrap: nowrap;
     align-content: center;
     align-items: center;
-    justify-content: center;
-     
+    justify-content: center; 
  }
  
  .assista-quando-quiser .texto {
@@ -227,7 +221,6 @@ body {
  .device-img video {
      margin: auto;
      max-width: 100%;
-    
  }
  /*Fim Assista quando quiser*/
 

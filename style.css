@@ -13,7 +13,7 @@ body {
     padding: 0px;
     background-color: black;
     color: white;
-
+    font-family: 'lucasflix';
 }
 
 .background0 {
@@ -50,7 +50,6 @@ header > p {
 }
 
 .apresenta-inicial {
-    font-family: 'lucasflix';
     color: white;
     margin: auto;
     margin-top: 100px;
@@ -92,7 +91,6 @@ h1, h2, h3 {
 }
 
 #email {
-    font-family: 'lucasflix';
     color: rgb(117, 110, 110);
     font-size: 1.5em;
     height: 60px;
@@ -108,7 +106,6 @@ h1, h2, h3 {
     color: white;
     width: 182px;
     font-size: 1.5em;
-    font-family: 'lucasflix';
     font-weight: 600;
     border: none;
 }
@@ -131,7 +128,6 @@ h1, h2, h3 {
     padding: 0px;
     border: 0px;
     margin: auto;
-    
 }
 
 .texto > h2 {
@@ -197,7 +193,6 @@ video {
     color: white;
     margin-top: 65px;
     max-height: 208px;
-   
 }
 
 #baixe {
@@ -220,13 +215,11 @@ video {
 .mobile-img {
    margin-left: 8%;
    margin-right: 10%;
-   
 }
 
 .mobile-img img {
     max-width: 36vw;
     height: auto;
-    
 }
 
 .download {
@@ -282,10 +275,7 @@ video {
     position: absolute;
     right: 0;
     top: 10px;
-
 }
-
-
 /*Fim Baixe*/
 
 /*Inicio Assista quando quiser*/
@@ -335,7 +325,6 @@ video {
     margin-top: 40px;
     margin-bottom: 40px;
     display: flex;
-    
 }
 
 .infantil-img {
@@ -373,6 +362,7 @@ ul {
 li {
     list-style-type: none;
 }
+
 .faq-style {
     background-color: #303030;
     max-width: 100%;
@@ -397,8 +387,9 @@ li {
     margin-bottom: 5px;
     padding: 1.2em;
 }
+/*Fim Perguntas*/
 
-/* Checkbox Hack */
+/*Inicio Checkbox*/
 #faq-1, #faq-2, #faq-3, #faq-4, #faq-5, #faq-6 {
     display:none;
  }
@@ -408,14 +399,12 @@ li {
    cursor: pointer;
    padding-left: 15px;
    background-color: transparent;
-
  }
  
  #mostra {
     display:none;
  }
  
- /* CSS quando o checkbox está marcado */
  #faq-1:checked ~ #mostra {
     display:block;
  }
@@ -445,16 +434,15 @@ li {
     margin-top: 60px;
     margin-bottom: 60px;
     display: flex;
-
 }
 
 .pronto-p-assistir .vamos-la {
     margin: auto;
     text-align: center;
-   
 }
+/*Fim Checkbox*/
 
-/*Rodapé*/
+/*Inicio Rodapé*/
 footer {
     margin-top: 15px;
     text-align: center;
@@ -483,3 +471,4 @@ a:visited {
 a:hover {
     background-color: black;
 }
+/*Fim Rodapé*/
