@@ -1,6 +1,6 @@
  # 👨‍💻 Projeto ccflix
   
-  <li><a href="https://lucasccgomes.github.io/ccflix/">Clique para acessar</li></a><br>
+  <li><a target="_blank" href="https://lucasccgomes.github.io/ccflix/">Clique para acessar</li></a><br>
   
    <img src="https://live.staticflickr.com/65535/52429435434_7295909c49_z.jpg" width="830" height="435" alt="tela-ccflix">
  <br>
@@ -10,7 +10,7 @@
   
    <h2>💻Tecnologias utilizadas: </h2>
  
-<a href="https://pt.wikipedia.org/wiki/CSS3"><img src="https://live.staticflickr.com/65535/52429139446_b120deee59_t.jpg" width="50" height="50" alt="logo-css"></a><a href="https://pt.wikipedia.org/wiki/HTML5"><img src="https://live.staticflickr.com/65535/52429657543_3f972a183d_t.jpg" width="50" height="50" alt="logo-html"></a>
+<a target="_blank" href="https://pt.wikipedia.org/wiki/CSS3"><img src="https://live.staticflickr.com/65535/52429139446_b120deee59_t.jpg" width="50" height="50" alt="logo-css"></a><a target="_blank" href="https://pt.wikipedia.org/wiki/HTML5"><img src="https://live.staticflickr.com/65535/52429657543_3f972a183d_t.jpg" width="50" height="50" alt="logo-html"></a>
 
   
   <h2>Descrição</h2>
