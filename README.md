@@ -10,7 +10,7 @@
   
    <h2>💻Tecnologias utilizadas: </h2>
  
-<img src="https://live.staticflickr.com/65535/52429139446_b120deee59_t.jpg" width="50" height="50" alt="logo-css"><img src="https://live.staticflickr.com/65535/52429657543_3f972a183d_t.jpg" width="50" height="50" alt="logo-html">
+<a href="https://pt.wikipedia.org/wiki/CSS3"><img src="https://live.staticflickr.com/65535/52429139446_b120deee59_t.jpg" width="50" height="50" alt="logo-css"></a><a href="https://pt.wikipedia.org/wiki/HTML5"><img src="https://live.staticflickr.com/65535/52429657543_3f972a183d_t.jpg" width="50" height="50" alt="logo-html"></a>
 
   
   <h2>Descrição</h2>
