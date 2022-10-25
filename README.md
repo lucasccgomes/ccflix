@@ -2,7 +2,7 @@
   
   <li><a target="_blank" href="https://lucasccgomes.github.io/ccflix/">Clique para acessar</li></a><br>
   
-   <img src="https://live.staticflickr.com/65535/52429435434_7295909c49_z.jpg" width="830" height="435" alt="tela-ccflix">
+   <img src="https://live.staticflickr.com/65535/52429435434_7295909c49_z.jpg" width="830" height="335" alt="tela-ccflix">
  <br>
  <h2>📱Nesse projeto aprendi sobre Responsividade</h2><br>
  
