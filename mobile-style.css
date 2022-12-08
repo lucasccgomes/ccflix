@@ -242,6 +242,7 @@ body {
 .infantil-img {
    max-width: 100%;
    margin: auto;
+   min-width: 200px;
 }
 
 .infantil-img img {
@@ -266,6 +267,11 @@ body {
 
 #mostra, .faq-style {
     font-size: 1.3em;
+}
+
+.rede img {
+    max-width: 100px;
+    max-height: 25px;
 }
 }
 
