@@ -494,4 +494,12 @@ a:visited {
 a:hover {
     background-color: black;
 }
+
+.tecnologias {
+    margin-bottom: 30px;
+}
+
+.tecnologias img:hover {
+    cursor: pointer;
+}
 /*Fim Rodapé*/
