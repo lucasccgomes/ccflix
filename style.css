@@ -20,6 +20,10 @@ body {
     font-family: 'lucasflix';
 }
 
+body h2 {
+    font-weight: 400;
+}
+
 .background0 {
     background-image: url(img/lucasflix-background-principal.jpg);
     background-repeat: no-repeat;
